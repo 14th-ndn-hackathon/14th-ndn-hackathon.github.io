@@ -1,0 +1,12 @@
+---
+layout: page
+title: Photos
+
+---
+
+{% for kv in assets %}
+  {% assign image=kv[0] %}
+  {% if image contains 'pics' %}
+    {% asset {{image}} @pic srcset:width="600 1x" srcset:width="800 2x" %}
+  {% endif %}
+{% endfor %}

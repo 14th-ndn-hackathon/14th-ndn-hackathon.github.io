@@ -1,0 +1,59 @@
+#!/usr/bin/ruby
+
+# Sorin Davidoi (sorin.davidoi@gmail.com)
+
+require 'optparse'
+require 'exifr/jpeg'
+
+options, files, conflicts = { }, { }, [ ]
+
+
+options[:pattern] = '%Y%m%d_%H%M%S'
+
+OptionParser.new do |opts|
+	opts.on('-d', '--directory DIR', 'Directory to scan') { |dir| options[:dir] = dir }
+	opts.on('-v', '--verbose', 'Enable verbose mode') { options[:verbose] = true }
+end.parse!
+
+if options[:dir]
+	if Dir.exists?(options[:dir])
+		# Change working directory
+		Dir.chdir(options[:dir])
+
+		# Iterator through all the files in the working directory
+		Dir.foreach(Dir.pwd) do |file_name|
+			# Skip current directory and its parent
+			next if file_name == '.' || file_name == '..'
+
+			# Only process .jpg files
+			if File.extname(file_name).downcase == '.jpg'
+				image = EXIFR::JPEG.new(file_name)
+
+				if image.exif?
+					if image.exif.date_time
+						new_file_name = "#{image.exif.date_time.strftime(options[:pattern])}.jpg"
+
+						# Skip files that already have the desired filename
+						unless File.basename(file_name) == File.basename(new_file_name)
+							files.has_value?(new_file_name) ? conflicts << file_name : files[file_name] = new_file_name
+						end
+					else
+						puts "#{file_name} does not contain date and time information => Skipping"
+					end
+				else
+					puts "#{file_name} does not contain exif information => Skipping" if options[:verbose]
+				end
+			else
+				puts "#{file_name} not a .jpg file => Skipping" if options[:verbose]
+			end
+		end
+
+		# Rename files and display conflicts
+		files.each { |key, value| puts "#{key} => #{value}" if options[:verbose]; File.rename(key, value) }
+		conflicts.each { |file_name| puts "Could not rename #{file_name} : conflict" } unless conflicts.empty?
+	else
+		puts 'Directory does not exist.'
+	end
+else
+	puts 'No directory specified.'
+end

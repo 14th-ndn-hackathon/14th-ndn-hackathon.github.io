@@ -1,0 +1,16 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_deploy/
+_heroku/
+.bundle/
+Gemfile.lock
+.DS_Store
+Thumbs.db
+cfh.html~
+committees.html~
+committees.md~
+program.md~
+hacks.md~
+index.md~

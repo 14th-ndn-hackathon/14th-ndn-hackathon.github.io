@@ -1,0 +1,89 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugins
+lsi: true
+highlighter: rouge
+markdown: kramdown
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
+
+url: http://12th-ndn-hackathon.named-data.net
+baseurl:
+
+plugins:
+  - jekyll-assets
+
+deadlines:
+        - name: Submission deadline
+          date: Monday, Oct 18, 2021
+        - name: Acceptance notification
+          date: Wednesday, Oct 20, 2021
+
+# Configuration for permalink
+permalink: /:page.html
+
+# Configuration for site
+title: 12th Named Data Networking (NDN) Hackathon (Virtual)
+short_title: 12th NDN Hackathon
+description: Oct 22-24, 2021
+author: 12th NDN Hackathon Organizing Committee
+#email: 12th-ndn-hackathon@named-data.net
+
+# Configuration for blog
+lang: en
+columns: 3
+date_format: "%B %d, %Y"
+truncate_len: 200
+
+# Configuration for navbar.html
+navbar_list:
+  - name: Home
+    link: /
+  - name: Committees
+    link: /committees.html
+#  - name: Call for Hacks
+#    link: /cfh.html
+#  - name: Program
+#    link: /program.html
+#  - name: Judging
+#    link: /judging.html
+  - name: Code of Conduct
+    link: /conduct.html
+
+asides:
+    github: true
+    tweets: false
+    archive_tabs: false
+
+google_plus_one:
+    size: medium
+
+twitter:
+    username: NamedData
+    count: 5
+    exclude_replies: true
+    show_screen_name: true
+    show_follower_count: false
+    widget_id: 698294519054278656
+
+github:
+   username: 12th-ndn-hackathon
+   count: 10000
+
+assets:
+  cache: .sass-cache
+  features:
+    automatic_img_size: false
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/fonts
+    - _assets/js
+    - _assets/bower
+    - _assets/files
+
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
