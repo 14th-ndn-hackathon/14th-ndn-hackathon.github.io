@@ -3,7 +3,7 @@ layout: page
 title: Welcome to the 12th NDN Hackathon
 ---
 
-We are hosting a three-day virtual NDN Hackathon (Oct 22-24, 2021). The event is open and FREE to participate in and winners will receive exciting FREE prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
+We are hosting a three-day virtual NDN Hackathon (Oct 22-24, 2021). The event is open and FREE to participate in and winners will receive exciting prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
 
 <!--#### **Attendees: Please join via [Zoom](https://arizona.zoom.us/j/86129306505?pwd=VTZDMEhGQnU0TDZZZDR3K1hZRmpmZz09)**-->
 
