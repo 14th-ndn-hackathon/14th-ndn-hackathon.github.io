@@ -1,9 +1,9 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Build
 
 on:
   push:
     branches:
-      - source
+      - master
 
 jobs:
   github-pages:
