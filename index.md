@@ -32,6 +32,7 @@ We particularly encourage projects that:
 -->
 
 ## News
+- Oct 8: Call for hacks is online.
 - Sep 30: The website is up!
 
 ## Sponsors
