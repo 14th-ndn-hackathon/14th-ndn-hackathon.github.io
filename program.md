@@ -10,7 +10,7 @@ Earth, Solar System, Milky Way, Universe
 
 {:.table-condensed .table-striped .table-hover .program}
 
-9:00 am - 11:00 am PDT | **Opening remarks, project pitches, team formation** <!--[Zoom](https://arizona.zoom.us/j/86129306505?pwd=VTZDMEhGQnU0TDZZZDR3K1hZRmpmZz09)--> <!--, Project Selection-->
+10:00 am - 11:00 am PDT | **Opening remarks, project pitches, team formation** <!--[Zoom](https://arizona.zoom.us/j/86129306505?pwd=VTZDMEhGQnU0TDZZZDR3K1hZRmpmZz09)--> <!--, Project Selection-->
 After 11:00 am PDT | **Hacking**
 
 ## Saturday, Oct 23, 2021
