@@ -41,7 +41,7 @@ title: Hacks Proposals
 - Xinyu Ma
 
 **Preferred Team Size:**
-- 3
+- 2
 
 **Target Participants:**
 - People new to NDN development
