@@ -43,6 +43,8 @@ navbar_list:
     link: /committees.html
   - name: Call for Hacks
     link: /cfh.html
+  - name: HACKS
+    link: /hacks.html
   - name: Program
     link: /program.html
 #  - name: Judging
