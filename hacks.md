@@ -58,7 +58,7 @@ title: Hacks Proposals
 **Expected Outcomes:**
 - A new executable yanfdui which runs as YaNFD with the newly developed UI, where users can view/add/delete faces and routes through UI directly.
 
-## 3. Passive Name Visualizer
+## 3. ~~Passive Name Visualizer~~
 
 #### **[Pitch Slides]({% asset ndn-hackathon2110-proposal3.pdf @path %})**
 
@@ -86,7 +86,7 @@ title: Hacks Proposals
 **Expected outcomes**
 - demo of the improved system
 
-## 4. NDN-FCH Feedback Loop
+## 4. ~~NDN-FCH Feedback Loop~~
 
 #### **[Pitch Slides]({% asset ndn-hackathon2110-proposal4.pdf @path %})**
 
@@ -116,7 +116,7 @@ Note: influencing NDN-FCH response with feedback data would be future work.
 **Expected outcomes**
 - Present protocol design; demo feedback generation and collection; present ideas of how to improve NDN-FCH response with feedback
 
-## 5. Bug Smash – Low Hanging Fruits
+## 5. ~~Bug Smash – Low Hanging Fruits~~
 
 #### **[Pitch Slides]({% asset ndn-hackathon2110-proposal5.pdf @path %})**
 
@@ -150,7 +150,7 @@ Fix the following bugs in platform software:
 **Expected outcomes**
 - Patches submitted to Gerrit for a subset of bugs, depending on actual team size and developer expertise.
 
-## 6. PIT Token in ndn-cxx and python-ndn
+## 6. ~~PIT Token in ndn-cxx and python-ndn~~
 
 #### **[Pitch Slides]({% asset ndn-hackathon2110-proposal6.pdf @path %})**
 
