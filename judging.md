@@ -5,13 +5,13 @@ title: Judging
 
 The concluding hack slides will be made available to judges before the final presentation starts.
 
-The final presentations are 5 minutes (hard limit) including demo and/or screenshots. Additionally, a few minutes will be provided for Q&A. 
+The final presentations are 10 minutes (hard limit) including demo and/or screenshots. Additionally, a few minutes will be provided for Q&A.
 
 The slides should cover the following aspects: (Judging criteria)
 
 ## (1) Impact (10 points)
 
-- How big of a problem are you solving? 
+- How big of a problem are you solving?
 
 - What is the potential benefit and impact of your solution?
 
@@ -37,7 +37,7 @@ The slides should cover the following aspects: (Judging criteria)
 
 - How well was it presented?
 
-- When a project could have a demo, was it presented? 
+- When a project could have a demo, was it presented?
 
 - Did the demo achieve the goals of the project?
 

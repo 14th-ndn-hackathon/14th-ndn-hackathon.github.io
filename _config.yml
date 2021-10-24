@@ -47,8 +47,8 @@ navbar_list:
     link: /hacks.html
   - name: Program
     link: /program.html
-#  - name: Judging
-#    link: /judging.html
+  - name: Judging
+    link: /judging.html
   - name: Code of Conduct
     link: /conduct.html
 
