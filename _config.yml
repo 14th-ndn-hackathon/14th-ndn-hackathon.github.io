@@ -2,10 +2,10 @@ safe: false
 source: .
 destination: ./_site
 plugins_dir: ./_plugins
-lsi: true
 highlighter: rouge
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
+include: ['CNAME', '.nojekyll']
 
 url: http://13th-ndn-hackathon.named-data.net
 baseurl:
@@ -14,10 +14,10 @@ plugins:
   - jekyll-assets
 
 deadlines:
-        - name: Submission deadline
-          date: TBD
-        - name: Acceptance notification
-          date: TBD
+  - name: Submission deadline
+    date: TBD
+  - name: Acceptance notification
+    date: TBD
 
 # Configuration for permalink
 permalink: /:page.html
