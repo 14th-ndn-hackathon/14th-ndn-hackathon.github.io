@@ -3,6 +3,10 @@ layout: page
 title: Call for Hacks
 ---
 
+TBD
+
+{% comment %}
+
 We solicit hackathon project proposals that advance the state of NDN.
 Participants will have approximately **two days** to work on their projects.
 
@@ -67,3 +71,6 @@ The hackathon organizers will provide proposal feedback and assistance to ensure
 Proposals must specify one or more representatives who will attend the hackathon to pitch their idea and guide its development over the duration of the hackathon (hacking optional).
 Representatives will have one minute to present their idea to attendees at the start of the hackathon.
 The pitch should emphasize the project's motivation, use cases, and goals.
+
+{% endcomment %}
+

@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
 
-url: http://12th-ndn-hackathon.named-data.net
+url: http://13th-ndn-hackathon.named-data.net
 baseurl:
 
 plugins:
@@ -15,19 +15,19 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: Monday, Oct 18, 2021
+          date: TBD
         - name: Acceptance notification
-          date: Wednesday, Oct 20, 2021
+          date: TBD
 
 # Configuration for permalink
 permalink: /:page.html
 
 # Configuration for site
-title: 12th Named Data Networking (NDN) Hackathon (Virtual)
-short_title: 12th NDN Hackathon
-description: Oct 22-24, 2021
-author: 12th NDN Hackathon Organizing Committee
-#email: 12th-ndn-hackathon@named-data.net
+title: 13th Named Data Networking (NDN) Hackathon
+short_title: 13th NDN Hackathon
+description: March 25-27, 2021, University of Memphis, TN
+author: 13th NDN Hackathon Organizing Committee
+#email: 13th-ndn-hackathon@named-data.net
 
 # Configuration for blog
 lang: en
@@ -43,10 +43,10 @@ navbar_list:
     link: /committees.html
   - name: Call for Hacks
     link: /cfh.html
-  - name: HACKS
-    link: /hacks.html
-  - name: Program
-    link: /program.html
+  # - name: HACKS
+  #   link: /hacks.html
+  # - name: Program
+  #   link: /program.html
   - name: Judging
     link: /judging.html
   - name: Code of Conduct
@@ -69,7 +69,7 @@ twitter:
     widget_id: 698294519054278656
 
 github:
-   username: 12th-ndn-hackathon
+   username: 13th-ndn-hackathon
    count: 10000
 
 assets:
