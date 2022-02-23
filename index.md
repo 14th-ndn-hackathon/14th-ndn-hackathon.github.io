@@ -3,7 +3,7 @@ layout: page
 title: Welcome to the 13th NDN Hackathon
 ---
 
-We are hosting a three-day NDN Hackathon (May 25-27, 2022). The event is open and FREE to participate in and winners will receive exciting prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
+We are hosting a three-day NDN Hackathon (March 25-27, 2022). The event is open and FREE to participate in and winners will receive exciting prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
 
 {% comment %}
 
@@ -18,8 +18,8 @@ We particularly encourage projects that:
  - Create or improve documentation and how-to guides.
 
 
-
 ## News
+
 - Feb 15, 2022: The website is up!
 
 ## Sponsors
