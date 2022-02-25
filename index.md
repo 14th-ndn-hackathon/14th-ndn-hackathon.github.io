@@ -20,6 +20,8 @@ We particularly encourage projects that:
 
 ## News
 
+- Feb 25, 2022: [The registration is open](https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937)
+
 - Feb 15, 2022: The website is up!
 
 ## Sponsors
