@@ -45,8 +45,8 @@ navbar_list:
     link: /cfh.html
   - name: HACKS
     link: /hacks.html
-  # - name: Program
-  #   link: /program.html
+  - name: Program
+    link: /program.html
   - name: Judging
     link: /judging.html
   - name: Code of Conduct
