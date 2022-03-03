@@ -32,6 +32,6 @@ Sexual language and imagery is not appropriate at any hackathon venue, this incl
 
 Hackathon participants violating these rules **may be sanctioned or expelled** from the hackathon at the discretion of the hackathon organisers.
 
-**Please report any violations of this code of conduct to a member of the [Organizing Committee](/committees.html).**
+**Please report any violations of this code of conduct to a member of the [Organizing Committee]({% link committees.md %}).**
 
 This Code of Conduct was modified from the [Hack Code of Conduct](https://hackcodeofconduct.org/), which has been released into the public domain under the [Creative Commons 0 (CC0)](https://creativecommons.org/publicdomain/zero/1.0/) license.

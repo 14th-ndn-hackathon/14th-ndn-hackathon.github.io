@@ -3,44 +3,43 @@ layout: page
 title: Call for Hacks
 ---
 
-As a reminder this year we are encouraging hacking on some of the
-[already proposed projects](http://13th-ndn-hackathon.named-data.net/hacks.html), but as always
-we will consider soliciting hackathon project proposals that advance the state of NDN.
+As a reminder, this year we are encouraging hacking on some of the [already proposed projects]({% link hacks.md %}),
+but as always we will also consider project proposals that advance the state of NDN suggested by the community.
 Participants will have approximately **two days** to work on their projects.
 
 We encourage projects that:
 
- - directly address the NDN project's research needs,
- - create new NDN tools or improve existing tools, or
- - create or improve documentation and how-to guides.
-
-#### **Limited Remote participation!**
+- directly address the NDN project's research needs,
+- create new NDN tools or improve existing tools, or
+- create or improve documentation and how-to guides.
 
 If you have a project in mind, please follow the submission instructions below.
+
+#### **Limited Remote participation!**
 
 We will post video conference links before the hackathon.
 With these, remote participants will be able to:
 
- - watch project pitches,
- - pitch their own projects, and
- - present projects at the conclusion of the hackathon.
+- watch project pitches,
+- pitch their own project(s), and
+- present their project at the conclusion of the hackathon.
 
 We will also create a Slack channel for communication during the hackathon.
 
 ## Submission instructions
 
-Proposals should be submitted via the [web form](https://forms.gle/9bmQtJL4ikhd1t4Y7). You also need to register for the hackathon [here](https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937).
+Proposals should be submitted via the [web form](https://forms.gle/9bmQtJL4ikhd1t4Y7).
+You also need to register for the hackathon [here](https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937).
 
-The submissions should include:
+Submissions should include:
 
-- 1 **PDF** slide, listing the project leader(s) and summarizing the problem, contributions, tasks, required knowledge, and expected outcomes of the project.
+- No more than 3 slides in PDF format, listing the project leader(s) and summarizing the problem, contributions, tasks, required knowledge, and expected outcomes of the project.
 
 All submitted proposals will be reviewed by the Organizing Committee before the hackathon.
 If accepted, the project leader is expected to give a one minute “pitch” presentation at the start of the Hackathon, soliciting participation from other attendees.
 
 At the conclusion of the hackathon, projects will be judged by a separate panel for one or more prizes.
 We hope that the hackathon will be a fun event for all and that projects will lead to collaborations that extend beyond the duration of the hackathon.
-
 
 ## Additional information
 
@@ -68,4 +67,3 @@ The hackathon organizers will provide proposal feedback and assistance to ensure
 Proposals must specify one or more representatives who will attend the hackathon to pitch their idea and guide its development over the duration of the hackathon (hacking optional).
 Representatives will have one minute to present their idea to attendees at the start of the hackathon.
 The pitch should emphasize the project's motivation, use cases, and goals.
-
