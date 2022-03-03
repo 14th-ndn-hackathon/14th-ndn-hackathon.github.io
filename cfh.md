@@ -3,11 +3,9 @@ layout: page
 title: Call for Hacks
 ---
 
-TBD
-
-{% comment %}
-
-We solicit hackathon project proposals that advance the state of NDN.
+As a reminder this year we are encouraging hacking on some of the
+[already proposed projects](http://13th-ndn-hackathon.named-data.net/hacks.html), but as always
+we will consider soliciting hackathon project proposals that advance the state of NDN.
 Participants will have approximately **two days** to work on their projects.
 
 We encourage projects that:
@@ -16,7 +14,7 @@ We encourage projects that:
  - create new NDN tools or improve existing tools, or
  - create or improve documentation and how-to guides.
 
-#### **Remote participation!**
+#### **Limited Remote participation!**
 
 If you have a project in mind, please follow the submission instructions below.
 
@@ -29,10 +27,9 @@ With these, remote participants will be able to:
 
 We will also create a Slack channel for communication during the hackathon.
 
-
 ## Submission instructions
 
-Proposals should be submitted via the [web form](https://forms.gle/fnGFz7TXNquDoX2X8). You also need to register for the hackathon [here](https://www.eventbrite.com/e/12th-ndn-hackathon-registration-124210678483).
+Proposals should be submitted via the [web form](https://forms.gle/9bmQtJL4ikhd1t4Y7). You also need to register for the hackathon [here](https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937).
 
 The submissions should include:
 
@@ -71,6 +68,4 @@ The hackathon organizers will provide proposal feedback and assistance to ensure
 Proposals must specify one or more representatives who will attend the hackathon to pitch their idea and guide its development over the duration of the hackathon (hacking optional).
 Representatives will have one minute to present their idea to attendees at the start of the hackathon.
 The pitch should emphasize the project's motivation, use cases, and goals.
-
-{% endcomment %}
 

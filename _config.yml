@@ -15,9 +15,9 @@ plugins:
 
 deadlines:
   - name: Submission deadline
-    date: TBD
+    date: March 17, 2022
   - name: Acceptance notification
-    date: TBD
+    date: March 24, 2022
 
 # Configuration for permalink
 permalink: /:page.html
@@ -43,8 +43,8 @@ navbar_list:
     link: /committees.html
   - name: Call for Hacks
     link: /cfh.html
-  # - name: HACKS
-  #   link: /hacks.html
+  - name: HACKS
+    link: /hacks.html
   # - name: Program
   #   link: /program.html
   - name: Judging
