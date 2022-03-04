@@ -14,7 +14,6 @@ group :jekyll_plugins do
   gem 'autoprefixer-rails', '~> 9.8'
   gem 'execjs', '~> 2.7.0'
   gem 'mini_magick', '~> 4.9', '>= 4.9.2'
-  gem 'yui-compressor', '~> 0.12.0'
   gem 'uglifier', '~> 4.1', '>= 4.1.20'
 
   gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
