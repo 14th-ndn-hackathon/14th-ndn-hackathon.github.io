@@ -9,7 +9,7 @@ All times are in CDT (UTC-5).
 
 {:.table-condensed .table-striped .table-hover .program}
 
-17:30 - 18:30 | Hackathon planning
+17:30 - 18:30 | Opening remarks, project pitches, team formation
 18:30 - 19:00 | Break
 19:00 - 20:30 | Dinner (off-campus)
 
@@ -31,4 +31,4 @@ All times are in CDT (UTC-5).
 09:00 - 09:30 | Breakfast
 09:30 - 12:00 | Hacking
 12:00 - 13:00 | Lunch
-13:00 - 14:30 | Judging
+13:00 - 14:30 | Final presentations/demos, judging, closing remarks
