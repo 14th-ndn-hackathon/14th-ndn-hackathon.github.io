@@ -21,6 +21,7 @@ In the near future, vehicles are expected to contain a mix of networking technol
 In this project you will enhance NDN to support CAN communication. For this project it is sufficient to enable NDN clients to request CAN signals that are embedded in a CAN trace. These signals will be requested by the name assigned to them by the Vehicle Signal Specification [VSS project](https://github.com/COVESA/vehicle_signal_specification). You need not worry about the exact name of the signal in VSS as long as you use a VSS-like naming structure.
 
 **Background**
+
 The CAN bus is a network that broadcasts messages
 to all participants, while supporting priorities based on the value of the CAN frame ID (lowest ID wins).
 The payload of a CAN frame contains signals which are values that each
@@ -75,6 +76,7 @@ https://github.com/commaai/opendbc
 Time-Sensitive Networking (TSN) is a set of standards under development by the Time-Sensitive Networking task group of the IEEE 802.1 working group. gPTP is one protocol to implement TSN. This project will implement gPTP as an NDN forwarding strategy. IEEE 802.1AS-2011 defines the Generic Precision Time Protocol (gPTP) profile which employs UDP messages to establish a hierarchy of clocks and synchronize time in a gPTP domain formed by devices exchanging time events.
 
 [TSN](https://en.wikipedia.org/wiki/Time-Sensitive_Networking)
+|
 [gPTP](https://docs.zephyrproject.org/latest/reference/networking/gptp.html)
 
 **Background**
@@ -140,10 +142,16 @@ Answer the following question: does NDN enable applications to build more/less/s
 **Description**
 Connectivity and Location-Aware Forwarding (CCLF) is a forwarding strategy for NDN-based MANETs.  CCLF broadcasts NDN packets and lets each node make independent decisions on whether to forward packets based on per-prefix performance measurements and any available geo-location information. In addition, it employs a density-aware suppression mechanism to reduce unnecessary packet transmissions. Moreover, we have developed a link adaptation layer for ad-hoc links to bridge the gap between CCLF and the capabilities of the underlying link.
 CCLF is implemented and experimented with using ndnSIM. The goal of the project is to make CCLF functional in NFD and test it with minindn-wifi.
-To accomplish the integration we have to
+To accomplish the integration we have to:
 
-- add the CCLF strategy and CCLF Measurement Accessor in the Strategy module
+- add the CCLF strategy and CCLF Measurement Accessor in the Strategy module;
 - implement the Ad-Hoc Link Adaptation Layer which queues the outgoing packet and keeps track of the number of nodes around.
+
+Participants' expected skills: C++, Python, familiarity with NFD and minindn-wifi.
+
+[Paper](https://dl.acm.org/doi/pdf/10.1145/3405656.3418713)
+|
+[ndnSIM code](https://github.com/alvyC/CLF_ndnSIM/tree/vanet_fw_ndnsim)
 
 ## 4. NDNSD: Service Publishing and Discovery in NDN
 
