@@ -8,6 +8,10 @@ title: Hacks Proposals
 * TOC
 {:toc}
 
+## 0. Team formation
+
+[Team member signup doc](https://docs.google.com/spreadsheets/d/1YlpFlj6EwxY1zssOoRCyzAoedKRQLXS-fsgs2S-Ce4M/edit?usp=sharing)
+
 ## 1. NDN for In-Vehicle Networking
 
 **Project Lead:**
@@ -173,3 +177,28 @@ features, we have fully implemented service publishing and discovery API and nam
 
 **Description**
 [YaNFD](https://github.com/named-data/YaNFD) is an NDN forwarder implemented in Golang. Since Go can use concurrency very efficiently, it is expected that YaNFD should have superior performance compared to NFD, which is single threaded. However, the performance gains observed currently are not as good as expected. This project involves profiling and investigating why the performance of YaNFD is not as expected.
+
+## 6. Python-ndn validator
+
+**Project Lead**
+- Xinyu Ma
+
+**Description**
+Python-ndn is a client NDN library implemented in Python. Python-ndn has a validator that offers callback to applications with Data name and signature raw bytes. However, the validator implementation could be improved from two sides. First, the validator should recursively verify corresponding certificate signers till reaching the configured trust anchor. Second, an ideal validator should also execute trust schemas that enable data authenticity checkings. The two aspects are correlated, since the trust schema should provide a trust anchor for any specific packet validation scheme. 
+
+One possible way to implement the trust schema in python-ndn is to take ndn-cxx’s trust schema language and implement its regex-based name matching in python. On the other hand, one can also implement a VerSec (nichols2021trust) parser and execute trust schemas by context-based rule matchings. Although the VerSec language has more expressive syntax in validation schemes, it lacks practices in other NDN libraries. 
+
+Python-ndn already supports VerSec-based validators. In this project, we will provide the VerSec support on the data producer side to help facilitate the data signing, and investigate the possibility of providing VerSec support on ndn-cxx.
+
+Current implemented: https://github.com/named-data/python-ndn
+
+## 7. Hydra Security Implementation
+
+**Project Lead**
+- Justin Presley
+- Proyash Podder
+
+**Description**
+Hydra, a distributed data repository system built over NDN, runs over a federation of storage servers provided by different user organizations. Users can publish files to Hydra, and the files can be shared following defined access policies. The Hydra codebase is constantly evolving and currently supports data insertion, deletion, and retrieval along with system queries. The security part however has not been formalized nor implemented yet. Therefore, in this project we would like to layout the foundations for Hydra security which include having a NOC (Network Operations Center) that authorizes Hydra nodes to join the system. The NOC also contains a trust schema of some sort that outlines who to trust in terms of users. This project is expansive (participants could authorize users based on their Google account). Nevertheless, we simply aim to at least get the foundation down so that we can confidently deploy and keep a Hydra instance running.
+
+The Currently Implemented Hydra: https://github.com/justincpresley/ndn-hydra
