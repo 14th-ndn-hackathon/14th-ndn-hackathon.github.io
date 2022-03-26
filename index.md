@@ -21,7 +21,8 @@ We particularly encourage projects that:
 
 ## News
 
-- Mar 3, 2022: Preliminary program is online
+- Mar 25, 2022: Final list of [hacks]({% link hacks.md %})
+- Mar 3, 2022: The hackathon [program]({% link program.md %}) is online
 - Mar 2, 2022: Website updated and [CFH form published](https://forms.gle/9bmQtJL4ikhd1t4Y7)
 - Feb 25, 2022: [The registration is open](https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937)
 - Feb 15, 2022: The website is up!

@@ -30,9 +30,9 @@ The CAN bus is a network that broadcasts messages
 to all participants, while supporting priorities based on the value of the CAN frame ID (lowest ID wins).
 The payload of a CAN frame contains signals which are values that each
 ECU reading a frame can decode. A frame can have various, arbitrary
-formats. To help make sense of how signals map to which IDs 
+formats. To help make sense of how signals map to which IDs
 vehicles use DBC files, which are text files that describe
-these associations for each car model. Many opensource DBC files exist, 
+these associations for each car model. Many opensource DBC files exist,
 which have been reversed engineered from real cars.
 For a sample of how a CAN trace replay looks like while annotated through
 info from a DBC, please check the comma.ai demo [here](https://cabana.comma.ai/)
@@ -53,18 +53,18 @@ using descriptive names originating from the DBC file.
 
 A possible path for this project would be:
 
-- obtain a sample CAN log and a corresponding DBC file  
-https://academictorrents.com/details/65a2fbc964078aff62076ff4e103f18b951c5ddb  
-(chunks 1 and 2 are produced on a RAV4 while the rest are on a HONDA civic)  
-https://github.com/commaai/comma2k19/  
+- obtain a sample CAN log and a corresponding DBC file
+https://academictorrents.com/details/65a2fbc964078aff62076ff4e103f18b951c5ddb
+(chunks 1 and 2 are produced on a RAV4 while the rest are on a HONDA civic)
+https://github.com/commaai/comma2k19/
 https://github.com/commaai/opendbc
 - bring up socketcan in vcan mode on your machine and use canreplay to replay the trace and candump to examine it.
-- craft a program to read can frames either straight from the bus 
+- craft a program to read can frames either straight from the bus
   https://github.com/linux-can/can-utils/blob/master/candump.c (lines 700-850)
   or by parsing the textual output of candump via a pipe.
 - read a DBC file and create queues for each CAN ID declared in the dbc file
   that will accept signals belonging to each id.
-- enqueue the messages as they are being read to their appropriate queue, 
+- enqueue the messages as they are being read to their appropriate queue,
   you could use FIFOs, sockets, or a message queue like zmq, the posix
   message queues available in linux (man 7 mq_overview) or your own construct.
 - the final program could either connect to a socketcan interface or read a file and together with a DBC description provide the signal over an easy to consume NDN naming scheme.
@@ -94,7 +94,7 @@ is selected and all the other clocks would synchronize to the Grandmaster.
 The protocol message to do that is called Sync, and would just contain the
 current time (T1) of the Grandmaster.
 
-When network delays are incorporated, each clock monitors the time 
+When network delays are incorporated, each clock monitors the time
 when it received the Sync message from the Grandmaster (T1') and
 calculates its offset. The clocks also need to measure round trip time
 to their master. For that purpose the protocol uses the Delay_Req
@@ -112,18 +112,18 @@ may ignore these and pretend that your timestamping is close to the real hardwar
 
 **The Project**
 
-For the purposes of this project the problem of selecting a 
-grandmaster is out of scope. Also assume that you know which clock has 
+For the purposes of this project the problem of selecting a
+grandmaster is out of scope. Also assume that you know which clock has
 the best accuracy (in an automotive application this would be the Gateway).
-If no network delays were involved you could just 
+If no network delays were involved you could just
 design an NDN scheme that queries for /time/grandmaster and just receives the
-current time from the grandmaster (Sync equivalent). 
-That would allow you to determine T1 and T1'. Now to incorporate the RTT 
-measurement you need to be able to determine the 
+current time from the grandmaster (Sync equivalent).
+That would allow you to determine T1 and T1'. Now to incorporate the RTT
+measurement you need to be able to determine the
 path that your interests towards the grandmaster follow. (It might be beneficial to look into prior work involving NDN-traceroute from
 https://named-data.net/wp-content/uploads/2017/03/ndn-0055-2-trace.pdf)
-Noted that some NFD forwarding strategies like ASF, 
-calculate a sort of RTT for each face but this metric is not currently 
+Noted that some NFD forwarding strategies like ASF,
+calculate a sort of RTT for each face but this metric is not currently
 published somehow for applications to use
 https://github.com/named-data/NFD/blob/master/daemon/fw/asf-strategy.cpp
 
@@ -166,8 +166,8 @@ NDNSD is a fully distributed and general-purpose service discovery protocol for 
 features, we have fully implemented service publishing and discovery API and naming, and have partially implemented service information specification (a.k.a service-info). The goal of this project is to implement 1) the service-information specification (complete the implementation) ii) service accessibility, and iii) measurement information. If time permits, we will also evaluate NDNSD against some of the existing protocols (e.g. SPDP).
 
 [Current implementation](https://github.com/dulalsaurab/NDNSD)
-
-[NDNSD](https://umwa.memphis.edu/etd/index.php/view/download/sdulal/6651/6651.pdf)
+|
+[NDNSD design](https://umwa.memphis.edu/etd/index.php/view/download/sdulal/6651/6651.pdf)
 
 ## 5. Profiling YaNFD
 
@@ -183,13 +183,11 @@ features, we have fully implemented service publishing and discovery API and nam
 - Xinyu Ma
 
 **Description**
-Python-ndn is a client NDN library implemented in Python. Python-ndn has a validator that offers callback to applications with Data name and signature raw bytes. However, the validator implementation could be improved from two sides. First, the validator should recursively verify corresponding certificate signers till reaching the configured trust anchor. Second, an ideal validator should also execute trust schemas that enable data authenticity checkings. The two aspects are correlated, since the trust schema should provide a trust anchor for any specific packet validation scheme. 
+[Python-ndn](https://github.com/named-data/python-ndn) is a client NDN library implemented in Python. Python-ndn has a validator that offers callback to applications with Data name and signature raw bytes. However, the validator implementation could be improved from two sides. First, the validator should recursively verify corresponding certificate signers till reaching the configured trust anchor. Second, an ideal validator should also execute trust schemas that enable data authenticity checkings. The two aspects are correlated, since the trust schema should provide a trust anchor for any specific packet validation scheme.
 
-One possible way to implement the trust schema in python-ndn is to take ndn-cxx’s trust schema language and implement its regex-based name matching in python. On the other hand, one can also implement a VerSec (nichols2021trust) parser and execute trust schemas by context-based rule matchings. Although the VerSec language has more expressive syntax in validation schemes, it lacks practices in other NDN libraries. 
+One possible way to implement the trust schema in python-ndn is to take ndn-cxx’s trust schema language and implement its regex-based name matching in python. On the other hand, one can also implement a VerSec (nichols2021trust) parser and execute trust schemas by context-based rule matchings. Although the VerSec language has more expressive syntax in validation schemes, it lacks practices in other NDN libraries.
 
 Python-ndn already supports VerSec-based validators. In this project, we will provide the VerSec support on the data producer side to help facilitate the data signing, and investigate the possibility of providing VerSec support on ndn-cxx.
-
-[python-ndn git repository](https://github.com/named-data/python-ndn)
 
 ## 7. Hydra Security Implementation
 
@@ -198,6 +196,4 @@ Python-ndn already supports VerSec-based validators. In this project, we will pr
 - Proyash Podder
 
 **Description**
-Hydra, a distributed data repository system built over NDN, runs over a federation of storage servers provided by different user organizations. Users can publish files to Hydra, and the files can be shared following defined access policies. The Hydra codebase is constantly evolving and currently supports data insertion, deletion, and retrieval along with system queries. The security part however has not been formalized nor implemented yet. Therefore, in this project we would like to layout the foundations for Hydra security which include having a NOC (Network Operations Center) that authorizes Hydra nodes to join the system. The NOC also contains a trust schema of some sort that outlines who to trust in terms of users. This project is expansive (participants could authorize users based on their Google account). Nevertheless, we simply aim to at least get the foundation down so that we can confidently deploy and keep a Hydra instance running.
-
-[Hydra git repository](https://github.com/justincpresley/ndn-hydra)
+[Hydra](https://github.com/justincpresley/ndn-hydra), a distributed data repository system built over NDN, runs over a federation of storage servers provided by different user organizations. Users can publish files to Hydra, and the files can be shared following defined access policies. The Hydra codebase is constantly evolving and currently supports data insertion, deletion, and retrieval along with system queries. The security part however has not been formalized nor implemented yet. Therefore, in this project we would like to layout the foundations for Hydra security which include having a NOC (Network Operations Center) that authorizes Hydra nodes to join the system. The NOC also contains a trust schema of some sort that outlines who to trust in terms of users. This project is expansive (participants could authorize users based on their Google account). Nevertheless, we simply aim to at least get the foundation down so that we can confidently deploy and keep a Hydra instance running.
