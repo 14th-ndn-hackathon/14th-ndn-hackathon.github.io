@@ -51,8 +51,8 @@ navbar_list:
     link: /judging.html
   - name: Code of Conduct
     link: /conduct.html
-  - name: ">> REGISTER <<"
-    link: https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937
+  #- name: ">> REGISTER <<"
+  #  link: https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937
 
 asides:
     github: true
