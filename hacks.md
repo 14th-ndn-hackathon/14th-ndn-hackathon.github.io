@@ -8,9 +8,9 @@ title: Hacks Proposals
 * TOC
 {:toc}
 
-## 0. Team formation
-
+{% comment %}
 [Team member signup doc](https://docs.google.com/spreadsheets/d/1YlpFlj6EwxY1zssOoRCyzAoedKRQLXS-fsgs2S-Ce4M/edit?usp=sharing)
+{% endcomment %}
 
 ## 1. ~~NDN for In-Vehicle Networking~~
 
