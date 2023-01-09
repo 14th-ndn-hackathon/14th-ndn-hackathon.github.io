@@ -7,7 +7,7 @@ markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
 include: ['CNAME', '.nojekyll']
 
-url: https://13th-ndn-hackathon.named-data.net
+url: https://14th-ndn-hackathon.named-data.net
 baseurl:
 
 plugins:
@@ -15,18 +15,18 @@ plugins:
 
 deadlines:
   - name: Submission deadline
-    date: March 17, 2022
+    date: TBD
   - name: Acceptance notification
-    date: March 24, 2022
+    date: TBD
 
 # Configuration for permalink
 permalink: /:page.html
 
 # Configuration for site
-title: 13th Named Data Networking (NDN) Hackathon
-short_title: 13th NDN Hackathon
-description: March 25-27, 2022, University of Memphis, TN
-author: 13th NDN Hackathon Organizing Committee
+title: 14th Named Data Networking (NDN) Hackathon
+short_title: 14th NDN Hackathon
+description: March 4-5, 2023, Montgomery County, Maryland
+author: 14th NDN Hackathon Organizing Committee
 #email: 13th-ndn-hackathon@named-data.net
 
 # Configuration for blog
@@ -71,7 +71,7 @@ twitter:
     widget_id: 698294519054278656
 
 github:
-   username: 13th-ndn-hackathon
+   username: 14th-ndn-hackathon
    count: 10000
 
 assets:

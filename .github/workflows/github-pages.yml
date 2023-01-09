@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - source
 
 jobs:
   github-pages:
@@ -25,5 +25,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
+          branch: master
           folder: _site
