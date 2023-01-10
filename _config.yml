@@ -25,7 +25,7 @@ permalink: /:page.html
 # Configuration for site
 title: 14th Named Data Networking (NDN) Hackathon
 short_title: 14th NDN Hackathon
-description: March 4-5, 2023, Montgomery County, Maryland
+description: March 4-5, 2023, National Institute of Standards and Technology (NIST), Montgomery County, Maryland
 author: 14th NDN Hackathon Organizing Committee
 #email: 13th-ndn-hackathon@named-data.net
 
@@ -51,8 +51,8 @@ navbar_list:
     link: /judging.html
   - name: Code of Conduct
     link: /conduct.html
-  #- name: ">> REGISTER <<"
-  #  link: https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937
+  - name: ">> REGISTER <<"
+    link: https://www.eventbrite.com/e/14th-ndn-hackathon-registration-507800975387
 
 asides:
     github: true

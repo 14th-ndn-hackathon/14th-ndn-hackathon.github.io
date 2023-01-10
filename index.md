@@ -8,7 +8,7 @@ and winners will receive exciting prizes! This event targets all levels of parti
 particularly for beginners, will be an excellent opportunity to get started with NDN.
 
 {% comment %}
-**Register for the hackathon** [here](https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937).
+**Register for the hackathon** [here](https://www.eventbrite.com/e/14th-ndn-hackathon-registration-507800975387).
 
 This year we are encouraging people to take a look at the [7 exciting categories]({% link hacks.md %})
 of NDN topics we are planning to work on, but as always, we will be considering cool hacks submitted by

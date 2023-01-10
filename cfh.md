@@ -2,10 +2,8 @@
 layout: page
 title: Call for Hacks
 ---
+We solicit hackathon project proposals that advance the state of NDN. Participants will have approximately **two days** to work on their projects.
 
-As a reminder, this year we are encouraging hacking on some of the [already proposed projects]({% link hacks.md %}),
-but as always we will also consider project proposals that advance the state of NDN suggested by the community.
-Participants will have approximately **two days** to work on their projects.
 
 We encourage projects that:
 
@@ -28,8 +26,8 @@ We will also create a Slack channel for communication during the hackathon.
 
 ## Submission instructions
 
-Proposals should be submitted via the [web form](https://forms.gle/9bmQtJL4ikhd1t4Y7).
-You also need to register for the hackathon [here](https://www.eventbrite.com/e/13th-ndn-hackathon-registration-277692564937).
+Proposals should be submitted via the [web form](https://forms.gle/zsXN93ziGBq8g2yF9).
+You also need to register for the hackathon [here](https://www.eventbrite.com/e/14th-ndn-hackathon-registration-507800975387).
 
 Submissions should include:
 
