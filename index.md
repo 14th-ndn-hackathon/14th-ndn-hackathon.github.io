@@ -31,10 +31,13 @@ We particularly encourage projects that:
 
 NIST also accepts other forms of federally issued identification in lieu of a state-issued driver's license, such as a valid passport, passport card, DOD's Common Access Card (CAC), Veterans ID, Federal Agency HSPD-12 IDs, and Military Dependents ID.
 
+**NIST Visitor, Associate and Contractor Protocols for Mitigating COVID-19 Exposure on NIST Campuses** can be found [here](https://www.nist.gov/about-nist/visit/nist-visitor-associate-and-contractor-protocols-mitigating-covid-19-exposure-nist)
+
 ## News
 
-- Jan 12, [Project proposal form](https://forms.gle/zsXN93ziGBq8g2yF9) is published.
-- Jan 12, 2023: [Registration](https://www.eventbrite.com/e/14th-ndn-hackathon-registration-507800975387) is open.
+- Jan 12, 2023: The hackathon [program](https://14th-ndn-hackathon.named-data.net/program.html) is online.
+- Jan 10, 2023: [Project proposal form](https://forms.gle/zsXN93ziGBq8g2yF9) is published.
+- Jan 10, 2023: [Registration](https://www.eventbrite.com/e/14th-ndn-hackathon-registration-507800975387) is open.
 - Jan 9, 2023: The website is up!
 
 ## Sponsors

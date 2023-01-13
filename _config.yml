@@ -14,10 +14,10 @@ plugins:
   - jekyll-assets
 
 deadlines:
-  - name: Submission deadline
-    date: TBD
+  - name: Project Submission deadline
+    date: February 24, 2023
   - name: Acceptance notification
-    date: TBD
+    date: March 1, 2023
 
 # Configuration for permalink
 permalink: /:page.html
