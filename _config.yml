@@ -17,9 +17,9 @@ deadlines:
   - name: Registration deadline
     date: February 20, 2023
   - name: Project Submission deadline
-    date: February 24, 2023
+    date: March 2, 2023
   - name: Acceptance notification
-    date: March 1, 2023
+    date: March 3, 2023
 
 # Configuration for permalink
 permalink: /:page.html
