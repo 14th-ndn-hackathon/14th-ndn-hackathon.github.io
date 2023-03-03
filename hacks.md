@@ -56,6 +56,7 @@ title: Hacks Proposals
 - improve platform software stability
 
 **Briefly describe the tasks**
+
 Several bugs in platform software that are easy to fix:
 
  - ndn-cxx may decode FreshnessPeriod as negative (#4997).
@@ -144,8 +145,8 @@ Side task: revamp the named-data.net front page"
 **Expected outcomes**
  - And NDN 101 website
  
- 
- ## 5. ndnSIM with go-ndn Application
+
+## 5. ndnSIM with go-ndn Application
 **Project Lead:**
 - Xinyu Ma
 
@@ -160,8 +161,8 @@ Side task: revamp the named-data.net front page"
 - Currently, ndnSIM only supports ndn-cxx applications with some limitations. Enabling the usage of go-ndn applications in ndnSIM not only adds more applications to ndnSIM, but also provides a way to verify and test go-ndn code.
 
 **Briefly describe the tasks**
- - "Some patches (bridging code) on ndnSIM side and/or go-ndn side.
- - Evaluation on whether the proposed direction works or not."
+ - Some patches (bridging code) on ndnSIM side and/or go-ndn side.
+ - Evaluation on whether the proposed direction works or not.
 
 
 
