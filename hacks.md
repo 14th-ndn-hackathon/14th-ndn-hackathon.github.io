@@ -8,7 +8,7 @@ title: Hacks Proposals
 * TOC
 {:toc}
 
-## 1. <del>Pheonix: An attempt to use light-weight NDN on smartwatch</del>
+## 1.Pheonix: An attempt to use light-weight NDN on smartwatch
 
 
 **Project Lead:**
@@ -39,7 +39,7 @@ title: Hacks Proposals
 
 
 
-## 2. <del>Bug Smash – Low Hanging Fruits</del>
+## 2. Bug Smash – Low Hanging Fruits
 
 
 **Project Lead:**
@@ -79,7 +79,7 @@ Let's also get started on some new features:
 
 
 
-## 3. <del>NDN-DPDK support in python-ndn</del>
+## 3. NDN-DPDK support in python-ndn
 
 **Project Lead:**
 - Junxiao Shi
@@ -116,7 +116,7 @@ memif transport task:
 
 
 
-## 4. <del>NDN 101</del>
+## 4. NDN 101
 **Project Lead:**
 - Varun Patil
 
@@ -145,7 +145,7 @@ Side task: revamp the named-data.net front page"
  - And NDN 101 website
  
  
- ## 5. <del>ndnSIM with go-ndn Application</del>
+ ## 5. ndnSIM with go-ndn Application
 **Project Lead:**
 - Xinyu Ma
 
