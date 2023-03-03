@@ -3,10 +3,10 @@ layout: page
 title: Hacks Proposals
 ---
 
-{::options toc_levels="2,3" /}
+<!--{::options toc_levels="2,3" /}
 
 * TOC
-{:toc}
+{:toc}-->
 
 ## 1. <del>Pheonix: An attempt to use light-weight NDN on smartwatch</del>
 
