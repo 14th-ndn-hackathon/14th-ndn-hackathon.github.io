@@ -165,8 +165,235 @@
 
 <section>
   
+<ul id="markdown-toc">
+  <li><a href="#1-pheonix-an-attempt-to-use-light-weight-ndn-on-smartwatch" id="markdown-toc-1-pheonix-an-attempt-to-use-light-weight-ndn-on-smartwatch">1. <del>Pheonix: An attempt to use light-weight NDN on smartwatch</del></a></li>
+  <li><a href="#2-bug-smash--low-hanging-fruits" id="markdown-toc-2-bug-smash--low-hanging-fruits">2. <del>Bug Smash – Low Hanging Fruits</del></a></li>
+  <li><a href="#3-ndn-dpdk-support-in-python-ndn" id="markdown-toc-3-ndn-dpdk-support-in-python-ndn">3. <del>NDN-DPDK support in python-ndn</del></a></li>
+  <li><a href="#4-ndn-101" id="markdown-toc-4-ndn-101">4. <del>NDN 101</del></a></li>
+</ul>
 
-<p>TBD</p>
+<h2 id="1-pheonix-an-attempt-to-use-light-weight-ndn-on-smartwatch">1. <del>Pheonix: An attempt to use light-weight NDN on smartwatch</del></h2>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Saurab Dulal</li>
+</ul>
+
+<!-- Project Members: TBD -->
+<p><strong>Prefered Team Size:</strong></p>
+<ul>
+  <li>2-4</li>
+</ul>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with previous NDN experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Attempt to use NDN on smartwatches (more detail on the proposal)</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ul>
+  <li>Check if NDN-Lite could be used, fix any potential errors and revitalize it</li>
+  <li>Attempt to compile and install NDN-Lite on the Android OS</li>
+  <li>Test the installation with simple examples</li>
+  <li>If the second task fails, look for other options</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++, Android</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Explore the possibilities of using NDN on Android</li>
+  <li>Compile, install, and test ndn-lite on Android OS.</li>
+</ul>
+
+<h2 id="2-bug-smash--low-hanging-fruits">2. <del>Bug Smash – Low Hanging Fruits</del></h2>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<!-- Project Members: TBD -->
+<p><strong>Prefered Team Size:</strong></p>
+<ul>
+  <li>2-4</li>
+</ul>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with previous NDN experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>improve platform software stability</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong>
+Several bugs in platform software that are easy to fix:</p>
+
+<ul>
+  <li>ndn-cxx may decode FreshnessPeriod as negative (#4997).</li>
+  <li>ndn-cxx misinterprets large dates in ValidityPeriod (#5176).</li>
+  <li>NFD faces/destroy should not destroy reserved faces (#4115).</li>
+  <li>ndncatchunks reports goodput=0 on ARMv7 (#5243).</li>
+  <li>NLSR hyperbolic routes have smaller cost than local apps (#5152).</li>
+</ul>
+
+<p>Let’s also get started on some new features:</p>
+
+<ul>
+  <li>ndn-cxx ValidatorConfig: multiple sig-type restrictions in checker (#5148).</li>
+  <li>NFD UDP multicast: toggle IPv4 and IPv6 independently (#4708).</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++, Boost C++ libraries</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Patches submitted to Gerrit for a subset of bugs, depending on actual team size and developer expertise.</li>
+</ul>
+
+<h2 id="3-ndn-dpdk-support-in-python-ndn">3. <del>NDN-DPDK support in python-ndn</del></h2>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<!-- Project Members: TBD -->
+<p><strong>Prefered Team Size:</strong></p>
+<ul>
+  <li>2-4</li>
+</ul>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with previous NDN experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>allow ndn-hydra to be actively used to solve problems which would popularize NDN</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+
+<p>NDN-DPDK management task:</p>
+
+<ul>
+  <li>In appv2 module, abstract out NFD management client related code.</li>
+  <li>Implement a management client for creating face and registering prefixes in NDN-DPDK forwarder.</li>
+  <li>Allow appv2.NDNApp to use either NFD or NDN-DPDK management client.</li>
+</ul>
+
+<p>memif transport task:</p>
+
+<ul>
+  <li>Develop a Python C extension that wraps libmemif.</li>
+  <li>Develop a transport that calls into the C extension.”</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Python, C, GraphQL</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>GitHub Pulls submitted for at least one task, depending on actual team size and developer expertise.</li>
+</ul>
+
+<h2 id="4-ndn-101">4. <del>NDN 101</del></h2>
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Varun Patil</li>
+</ul>
+
+<!-- Project Members: TBD -->
+<p><strong>Prefered Team Size:</strong></p>
+<ul>
+  <li>2-4</li>
+</ul>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People new to NDN</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Learning about NDN outside a course is hard. You either need to read design documents or watch tutorials. With an interactive 101, newcomers will find it much easier to onboard to NDN concepts and development.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ul>
+  <li>Identify and gather the material to include</li>
+  <li>Present NDN in an interactive format.</li>
+  <li>Design and implement the 101 website.</li>
+</ul>
+
+<p>Side task: revamp the named-data.net front page”</p>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>HTML/CSS/TS in NDNts</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>And NDN 101 website</li>
+</ul>
+
+<p>## 5. <del>ndnSIM with go-ndn Application</del>
+<strong>Project Lead:</strong></p>
+<ul>
+  <li>Xinyu Ma</li>
+</ul>
+
+<!-- Project Members: TBD -->
+<p><strong>Prefered Team Size:</strong></p>
+<ul>
+  <li>4-5</li>
+</ul>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with previous NDN experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Currently, ndnSIM only supports ndn-cxx applications with some limitations. Enabling the usage of go-ndn applications in ndnSIM not only adds more applications to ndnSIM, but also provides a way to verify and test go-ndn code.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ul>
+  <li>“Some patches (bridging code) on ndnSIM side and/or go-ndn side.</li>
+  <li>Evaluation on whether the proposed direction works or not.”</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>ndnSIM (C++), go-ndn (Go), WASM</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Some patches (bridging code) on ndnSIM side and/or go-ndn side.</li>
+  <li>Evaluation on whether the proposed direction works or not.</li>
+</ul>
 
 </section>
 
@@ -209,6 +436,6 @@
 
     </footer>
 
-    <script type="text/javascript" src="/assets/site-7ddd46cdf947c0e609da5a7aa8cebd2ebb1cb3ccd96403b7beef704aa43852bd3ac18d1a81bacae196139b01945a70956069788fd48c6b40cf3db1db318114c8.js"></script>
+    <script src="/assets/site-7ddd46cdf947c0e609da5a7aa8cebd2ebb1cb3ccd96403b7beef704aa43852bd3ac18d1a81bacae196139b01945a70956069788fd48c6b40cf3db1db318114c8.js" type="text/javascript"></script>
   </body>
 </html>
