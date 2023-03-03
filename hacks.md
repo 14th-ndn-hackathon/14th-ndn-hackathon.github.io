@@ -3,10 +3,10 @@ layout: page
 title: Hacks Proposals
 ---
 
-<!--{::options toc_levels="2,3" /}
+{::options toc_levels="2,3" /}
 
 * TOC
-{:toc}-->
+{:toc}
 
 ## 1. <del>Pheonix: An attempt to use light-weight NDN on smartwatch</del>
 
@@ -82,6 +82,7 @@ Let's also get started on some new features:
 
 
 ## 3. <del>NDN-DPDK support in python-ndn</del>
+
 **Project Lead:**
 - Junxiao Shi
 
@@ -96,7 +97,6 @@ Let's also get started on some new features:
 - allow ndn-hydra to be actively used to solve problems which would popularize NDN
 
 **Briefly describe the tasks**
-https://github.com/named-data/python-ndn/issues/48
 
 NDN-DPDK management task:
 
