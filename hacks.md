@@ -10,7 +10,6 @@ title: Hacks Proposals
 
 ## 1. <del>Pheonix: An attempt to use light-weight NDN on smartwatch</del>
 
-<!--#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**-->
 
 **Project Lead:**
 - Saurab Dulal
@@ -42,7 +41,6 @@ title: Hacks Proposals
 
 ## 2. <del>Bug Smash – Low Hanging Fruits</del>
 
-<!--#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**-->
 
 **Project Lead:**
 - Junxiao Shi
