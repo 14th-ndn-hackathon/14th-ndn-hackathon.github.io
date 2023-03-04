@@ -18,6 +18,6 @@ Preliminary program, subject to change
 
 {:.table-condensed .table-striped .table-hover .program}
 
-09:00 - 12:30 | Hacking
-12:30 - 13:30 | Lunch
-13:00 - 14:30 | Final presentations/demos, judging, closing remarks
+09:00 - 12:00 | Hacking
+12:00 - 13:00 | Lunch
+13:00 - 14:00 | Final presentations/demos, judging, closing remarks
