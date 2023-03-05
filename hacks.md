@@ -39,7 +39,7 @@ title: Hacks Proposals
 
 
 
-## 2. Bug Smash – Low Hanging Fruits
+## <del>2. Bug Smash – Low Hanging Fruits</del>
 
 
 **Project Lead:**
@@ -148,7 +148,7 @@ Side task: revamp the named-data.net front page"
 
 
 
-## 5. ndnSIM with go-ndn Application
+## <del>5. ndnSIM with go-ndn Application</del>
 **Project Lead:**
 - Xinyu Ma
 
