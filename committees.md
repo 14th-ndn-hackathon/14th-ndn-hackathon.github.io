@@ -10,4 +10,9 @@ title: Committees
 
 ## Judging Committee
 
-TBD
+- Alex Afanasyev (Florida International University)
+- Lan Wang (University of Memphis)
+- Lixia Zhang (UCLA)
+- Christos Papadopoulos (University of Memphis) 
+- Susmit  Shannigrahi (Tennessee Tech)
+- Davide Pesavento (NIST)
